@@ -10,12 +10,12 @@ body {
   }
   
   .carrusel {
-    width: 80%;
-    max-width: 800px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 500px; /* Limita el ancho máximo */
+    overflow: hidden; /* Evita que las imágenes se desborden */
+    margin: 0 auto; /* Centra el carrusel */
   }
+  
   
   .imagenes {
     display: flex;
@@ -28,12 +28,3 @@ body {
     flex-shrink: 0;
   }
 
-  .carrusel {
-    width: 100%; /* Ocupa todo el ancho disponible */
-    max-width: 500px; /* Limita el ancho máximo */
-    overflow: hidden; /* Evita que las imágenes se desborden */
-    margin: 0 auto; /* Centra el carrusel */
-  }
-  
-
-  
