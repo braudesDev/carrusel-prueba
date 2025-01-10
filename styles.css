@@ -11,7 +11,7 @@ body {
   
   .carrusel {
     width: 100%; /* Ocupa todo el ancho disponible */
-    max-width: 100px; /* Limita el ancho máximo */
+    max-width: 350px; /* Limita el ancho máximo */
     overflow: hidden; /* Evita que las imágenes se desborden */
     margin: 0 auto; /* Centra el carrusel */
   }
