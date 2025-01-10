@@ -28,4 +28,12 @@ body {
     flex-shrink: 0;
   }
 
+  .carrusel {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 800px; /* Limita el ancho máximo */
+    overflow: hidden; /* Evita que las imágenes se desborden */
+    margin: 0 auto; /* Centra el carrusel */
+  }
+  
+
   
